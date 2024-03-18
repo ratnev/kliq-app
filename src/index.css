@@ -10,7 +10,7 @@ body{
 }
 .sidebar-container{
   width: 330px;
-  height: auto;
+  height: 100%;
   background-color: #E7E7E7;
   padding: 30px 24px 10px;
 }
