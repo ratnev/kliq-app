@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+
+}
+.sidebar-container{
+  width: 330px;
+  height: 100%;
+  background-color: #E7E7E7;
+  padding: 30px 24px 10px;
+}
+.logo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img{
+  height: 50px; 
+}
+.search-wrapper{
+  width: 288px;
+  height: 55px;
+  border-radius: 50px;
+  padding: 0 16px;
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  background-color: white;
+}
+.search-input{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-container{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.container{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.nav-item{
+  color: #181A1D;
+  text-decoration: none;
+  padding: 12px 0;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  justify-content: start;
+  cursor: pointer;
+  width: 100%;
+}
+.main-wrapper{
+  padding: 32px 32px;
+  width: 100%;
+}
+.button{
+  background-color:  #1C3838;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  color: white;
+  border: none;
+  outline: none;
+  padding:6px 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #181A1D;
+  margin-bottom: 24px;
+  margin-top: 56px;
+
+}
+.breadcrumbs-cont{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  color: #181A1D;
+
+}
+.secondary-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #181A1D;
+  font-weight: 600;
+  border-radius: 8px;
+  padding:2px 6px;
+  cursor: pointer;
+
+}
+.nav-item:hover{
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 12px 10px;
+  transition: 0.3s;
+}
+.buttons-cont{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 32px;
+}
+.add-btn-wrapper {
+  margin-top: 32px;
+}
+.subscription-btn {
+  padding: 10px;
+}
+.divider{
+  margin-top: 100px;
+}
+.box{
+  background-color: white;
+  margin-top: 44px;
+  width: 100%;
+  height: 210px;
+  border-radius: 20px;
+}
+
+.bottom-menu{
+  display: flex;
+  align-items: start ;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.table-cont{
+  background-color: white;
+  border-radius: 14px;
+  border: 1px solid #E7E7E7;
+  width: 100%;
+  margin-top: 16px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+th:first-child{
+  border-top-left-radius: 10px;
+}
+th:last-child{
+  border-top-right-radius: 10px;
+}
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+thead{
+  background-color: #5C5D5F;
+  padding: 0 16px;
+
+}
+.table-wrapper{
+  padding: 16px ;
+
+}
+th{
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 16px 0 16px 16px;
+  text-align: start;
+}
+td{
+  padding: 16px 0 16px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #181A1D;
+}
+.productTag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9F88;
+  border-radius: 60px;
+  padding: 4px 0;
+  font-size: 11px;
+  gap: 5px;
+
+}
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DEFE9C;
+  border-radius: 60px;
+  padding: 4px 0;
+  font-size: 11px;
+  gap: 5px;
+
+}
+.filters{
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end;
+  padding: 32px ;
+  gap: 20px;
+}
+.filter-item{
+  border: 1px solid #9FA0A0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F6F6F6;
+  height: 35px;
+  border-radius: 50px;
+  gap: 5px;
+  padding: 6px 10px;
+}
