@@ -10,7 +10,7 @@ body{
 }
 .sidebar-container{
   width: 330px;
-  height: 100%;
+  height: auto;
   background-color: #E7E7E7;
   padding: 30px 24px 10px;
 }
@@ -56,7 +56,7 @@ body{
   align-items: start;
   justify-content: start;
   height: 100vh;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .nav-item{
   color: #181A1D;
